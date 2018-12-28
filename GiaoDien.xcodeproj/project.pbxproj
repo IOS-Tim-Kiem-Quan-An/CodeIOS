@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08593AFE7AAADD562693D297 /* Pods_GiaoDien.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F32DC3E282E3C145558253 /* Pods_GiaoDien.framework */; };
 		5E0BE78A21B2200200ACF680 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0BE78921B2200200ACF680 /* AppDelegate.swift */; };
 		5E0BE78C21B2200200ACF680 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0BE78B21B2200200ACF680 /* ViewController.swift */; };
 		5E0BE78F21B2200200ACF680 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E0BE78D21B2200200ACF680 /* Main.storyboard */; };
 		5E0BE79121B2200300ACF680 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E0BE79021B2200300ACF680 /* Assets.xcassets */; };
 		5E0BE79421B2200300ACF680 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E0BE79221B2200300ACF680 /* LaunchScreen.storyboard */; };
+		5E19539E21B42D3E00C3B69B /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E19539D21B42D3E00C3B69B /* HomeController.swift */; };
+		5E1953A021B4316900C3B69B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E19539F21B4316900C3B69B /* Model.swift */; };
+		5E1953A321B5636800C3B69B /* Home2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1953A221B5636800C3B69B /* Home2ViewController.swift */; };
+		5E895AD821B6FB9300B0541B /* CustomAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E895AD721B6FB9300B0541B /* CustomAnnotation.swift */; };
+		5EF52DD421B6758200712CC8 /* Home3Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF52DD321B6758200712CC8 /* Home3Map.swift */; };
+		DB80CFFE21CE994500336CE7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB80CFFD21CE994500336CE7 /* LoginViewController.swift */; };
+		DB80D00021CE99F700336CE7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DB80CFFF21CE99F700336CE7 /* GoogleService-Info.plist */; };
+		DB80D00221CE9F9500336CE7 /* LoginViewController+handle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB80D00121CE9F9500336CE7 /* LoginViewController+handle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		03F32DC3E282E3C145558253 /* Pods_GiaoDien.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GiaoDien.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E0BE78621B2200200ACF680 /* GiaoDien.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiaoDien.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E0BE78921B2200200ACF680 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E0BE78B21B2200200ACF680 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,17 @@
 		5E0BE79021B2200300ACF680 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E0BE79321B2200300ACF680 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E0BE79521B2200300ACF680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E19539D21B42D3E00C3B69B /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		5E19539F21B4316900C3B69B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		5E1953A221B5636800C3B69B /* Home2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home2ViewController.swift; sourceTree = "<group>"; };
+		5E895AD721B6FB9300B0541B /* CustomAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotation.swift; sourceTree = "<group>"; };
+		5EF52DD321B6758200712CC8 /* Home3Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home3Map.swift; sourceTree = "<group>"; };
+		6EDBE55B1F6998B8C61884D7 /* Pods-GiaoDien.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiaoDien.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GiaoDien/Pods-GiaoDien.debug.xcconfig"; sourceTree = "<group>"; };
+		717D62E9207A13D3015D1DD2 /* Pods-GiaoDien.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiaoDien.release.xcconfig"; path = "Pods/Target Support Files/Pods-GiaoDien/Pods-GiaoDien.release.xcconfig"; sourceTree = "<group>"; };
+		DB02FA2521C23BEF000F6FE5 /* GiaoDien.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GiaoDien.entitlements; sourceTree = "<group>"; };
+		DB80CFFD21CE994500336CE7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DB80CFFF21CE99F700336CE7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DB80D00121CE9F9500336CE7 /* LoginViewController+handle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginViewController+handle.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08593AFE7AAADD562693D297 /* Pods_GiaoDien.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +62,8 @@
 			children = (
 				5E0BE78821B2200200ACF680 /* GiaoDien */,
 				5E0BE78721B2200200ACF680 /* Products */,
+				DB02FA2221C23BEF000F6FE5 /* Frameworks */,
+				79B079F98CAB2D8EDD915F95 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +78,48 @@
 		5E0BE78821B2200200ACF680 /* GiaoDien */ = {
 			isa = PBXGroup;
 			children = (
+				DB80CFFC21CE991700336CE7 /* logionPage */,
+				DB02FA2521C23BEF000F6FE5 /* GiaoDien.entitlements */,
 				5E0BE78921B2200200ACF680 /* AppDelegate.swift */,
-				5E0BE78B21B2200200ACF680 /* ViewController.swift */,
 				5E0BE78D21B2200200ACF680 /* Main.storyboard */,
 				5E0BE79021B2200300ACF680 /* Assets.xcassets */,
 				5E0BE79221B2200300ACF680 /* LaunchScreen.storyboard */,
+				DB80CFFF21CE99F700336CE7 /* GoogleService-Info.plist */,
 				5E0BE79521B2200300ACF680 /* Info.plist */,
+				5E19539D21B42D3E00C3B69B /* HomeController.swift */,
+				5E19539F21B4316900C3B69B /* Model.swift */,
+				5E1953A221B5636800C3B69B /* Home2ViewController.swift */,
+				5EF52DD321B6758200712CC8 /* Home3Map.swift */,
+				5E895AD721B6FB9300B0541B /* CustomAnnotation.swift */,
 			);
 			path = GiaoDien;
+			sourceTree = "<group>";
+		};
+		79B079F98CAB2D8EDD915F95 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6EDBE55B1F6998B8C61884D7 /* Pods-GiaoDien.debug.xcconfig */,
+				717D62E9207A13D3015D1DD2 /* Pods-GiaoDien.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DB02FA2221C23BEF000F6FE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03F32DC3E282E3C145558253 /* Pods_GiaoDien.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB80CFFC21CE991700336CE7 /* logionPage */ = {
+			isa = PBXGroup;
+			children = (
+				DB80CFFD21CE994500336CE7 /* LoginViewController.swift */,
+				5E0BE78B21B2200200ACF680 /* ViewController.swift */,
+				DB80D00121CE9F9500336CE7 /* LoginViewController+handle.swift */,
+			);
+			path = logionPage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +129,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E0BE79821B2200300ACF680 /* Build configuration list for PBXNativeTarget "GiaoDien" */;
 			buildPhases = (
+				B3533E88124ED04110C8C82D /* [CP] Check Pods Manifest.lock */,
 				5E0BE78221B2200200ACF680 /* Sources */,
 				5E0BE78321B2200200ACF680 /* Frameworks */,
 				5E0BE78421B2200200ACF680 /* Resources */,
+				84BCE58FA59C919D454CA212 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +156,20 @@
 				TargetAttributes = {
 					5E0BE78521B2200200ACF680 = {
 						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.DataProtection = {
+								enabled = 0;
+							};
+							com.apple.HomeKit = {
+								enabled = 0;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+							com.apple.WAC = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -122,6 +196,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB80D00021CE99F700336CE7 /* GoogleService-Info.plist in Resources */,
 				5E0BE79421B2200300ACF680 /* LaunchScreen.storyboard in Resources */,
 				5E0BE79121B2200300ACF680 /* Assets.xcassets in Resources */,
 				5E0BE78F21B2200200ACF680 /* Main.storyboard in Resources */,
@@ -130,13 +205,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		84BCE58FA59C919D454CA212 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GiaoDien/Pods-GiaoDien-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GiaoDien/Pods-GiaoDien-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3533E88124ED04110C8C82D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GiaoDien-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5E0BE78221B2200200ACF680 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB80D00221CE9F9500336CE7 /* LoginViewController+handle.swift in Sources */,
+				5E1953A321B5636800C3B69B /* Home2ViewController.swift in Sources */,
 				5E0BE78C21B2200200ACF680 /* ViewController.swift in Sources */,
 				5E0BE78A21B2200200ACF680 /* AppDelegate.swift in Sources */,
+				5E19539E21B42D3E00C3B69B /* HomeController.swift in Sources */,
+				DB80CFFE21CE994500336CE7 /* LoginViewController.swift in Sources */,
+				5E1953A021B4316900C3B69B /* Model.swift in Sources */,
+				5EF52DD421B6758200712CC8 /* Home3Map.swift in Sources */,
+				5E895AD821B6FB9300B0541B /* CustomAnnotation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,7 +333,9 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "3rd Party Mac Developer Application";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -255,7 +396,9 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "3rd Party Mac Developer Application";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -280,16 +423,21 @@
 		};
 		5E0BE79921B2200300ACF680 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EDBE55B1F6998B8C61884D7 /* Pods-GiaoDien.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LP6P35DSCQ;
 				INFOPLIST_FILE = GiaoDien/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cuong.GiaoDien;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trucrocket.GiaoDien;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -297,16 +445,21 @@
 		};
 		5E0BE79A21B2200300ACF680 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 717D62E9207A13D3015D1DD2 /* Pods-GiaoDien.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LP6P35DSCQ;
 				INFOPLIST_FILE = GiaoDien/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cuong.GiaoDien;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trucrocket.GiaoDien;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
